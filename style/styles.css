@@ -25,6 +25,8 @@ body {
   text-justify: inter-word;
 }
 
+
+
 p {margin-bottom: 1.15rem;
   font-family: "Titi";
 }
@@ -106,11 +108,19 @@ small, .text_small {font-size: 0.8em;}
 
 img#animation {
   z-index: -99;
-top: 89px;
-left: 65%;
-position: absolute; 
+  top: 89px;
+  left: 65%;
+  position: absolute; 
+  width: 350px;
+  height: auto;
+}
 
-width: 350px;
+img#leftBgImage {
+  left: 10%;
+  top: 2%;
+  z-index: -99;
+  position: absolute; 
+  width: 600px;
   height: auto;
 
 
