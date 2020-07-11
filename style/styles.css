@@ -26,6 +26,7 @@ body {
 
 body#refBody
 {
+  cursor: url("../content/cursorWhite.png"),  default;
   background-color: blue;
 }
 
