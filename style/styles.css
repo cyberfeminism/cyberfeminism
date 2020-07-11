@@ -34,6 +34,13 @@ p {margin-bottom: 1.15rem;
   white-space: pre-wrap;
 }
 
+p.footnote{
+  font-size: 9pt;
+ width: 50%;
+text-align: left;
+margin: auto;
+}
+
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1.05rem;
   font-family: "VT";
@@ -83,7 +90,8 @@ h4 {font-size: 1.563em;}
 
 h5 {font-size: 1.25em;}
 
-a { color: inherit; } 
+a { color: inherit; 
+text-decoration: none;} 
 
 small, .text_small {font-size: 0.8em;}
 
@@ -246,6 +254,23 @@ img#leftBgImage {
   border: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+.circle {
+ 
+  width: 180px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+  background: blue;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
