@@ -24,6 +24,11 @@ body {
   text-justify: inter-word;
 }
 
+body#refBody
+{
+  background-color: blue;
+}
+
 p {margin-bottom: 1.15rem;
   font-family: "Titi";
 }
@@ -82,6 +87,10 @@ small, .text_small {font-size: 0.8em;}
   text-decoration: none;
 }
 
+.topnav a#refNav{
+  color: white;
+}
+
 /* Change color on hover */
 .topnav a:hover {
   color: black;
@@ -125,6 +134,13 @@ small, .text_small {font-size: 0.8em;}
   
 }
 
+span {
+  box-shadow: 0 0 0 4px #fff;
+  background-color: #fff;
+  line-height: 2;
+  color: #0000FF;
+  font-family: "Titi";
+}
 
 /* Create three equal columns that floats next to each other */
 .maincolumn {
@@ -137,6 +153,12 @@ small, .text_small {font-size: 0.8em;}
   letter-spacing: 0px;
   color: #0000FF;
 }
+
+.maincolumn#refColumn {
+  color:white;
+  
+}
+
 
 img#animation {
   z-index: -99;
