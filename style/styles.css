@@ -98,7 +98,6 @@ small, .text_small {font-size: 0.8em;}
 
 /* Style the topnav links */
 .topnav a {
-  float: right;
   color: #0000FF;
   text-align: right;
   text-transform: uppercase;
