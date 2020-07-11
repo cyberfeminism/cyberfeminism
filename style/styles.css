@@ -31,6 +31,7 @@ body#refBody
 
 p {margin-bottom: 1.15rem;
   font-family: "Titi";
+  white-space: pre-wrap;
 }
 
 h1, h2, h3, h4, h5 {
@@ -40,6 +41,16 @@ h1, h2, h3, h4, h5 {
   line-height: 1.15;
   justify-content: center;
   display: flex;
+}
+
+h1#refH1
+{
+  font-size: 72pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  text-align: right;
+  margin-bottom: 50px;
 }
 
 #specialh {
@@ -54,6 +65,16 @@ h1, h2, h3, h4, h5 {
 h1 {
   margin-top: 0;
   font-size: 2.452em;
+}
+
+
+
+hr {
+  background: #0000FF;
+  width: 80%;
+  height: 1px;
+  border: none;
+            
 }
 
 h2 {font-size: 2.441em;}
@@ -156,9 +177,15 @@ span {
 
 .maincolumn#refColumn {
   color:white;
-  
+  width: 70%;
+  padding-top: 10%;
 }
 
+#refImg {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+}
 
 img#animation {
   z-index: -99;
@@ -208,7 +235,6 @@ img#leftBgImage {
   width: 80%;
  
 }
-
 
 /* Clear floats after the columns */
 .row:after {
