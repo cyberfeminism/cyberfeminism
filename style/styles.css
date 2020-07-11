@@ -8,12 +8,11 @@ html {font-size: 100%;} /*16px*/
 @font-face {
   font-family: "Titi";
   src: url('../fonts/TitilliumWeb-Regular.ttf');
-
 }
 
 @font-face {
   font-family: "VT";
-  src: url('../fonts/VT323-Regular.ttf');
+  src: url('../fonts/resistance_generale-webfont.ttf');
 }
   
 body {
@@ -24,8 +23,6 @@ body {
   color: #0000FF;
   text-justify: inter-word;
 }
-
-
 
 p {margin-bottom: 1.15rem;
   font-family: "Titi";
@@ -44,8 +41,9 @@ h1, h2, h3, h4, h5 {
   color: black;
   font-size: 16pt;
   text-align: center;
-  display: flex;
-  
+  letter-spacing: -4.54px;
+  text-transform: uppercase;
+  display: block;
 }
 
 h1 {
@@ -61,6 +59,8 @@ h4 {font-size: 1.563em;}
 
 h5 {font-size: 1.25em;}
 
+a { color: inherit; } 
+
 small, .text_small {font-size: 0.8em;}
 
 /* Style the top navigation bar */
@@ -68,7 +68,7 @@ small, .text_small {font-size: 0.8em;}
   overflow: hidden;
   display: flex;
   justify-content: right;
-  margin-right: 20%;
+  margin-right: 10%;
   font-family: "VT";
 }
 
@@ -77,6 +77,7 @@ small, .text_small {font-size: 0.8em;}
   float: right;
   color: #0000FF;
   text-align: right;
+  text-transform: uppercase;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -93,6 +94,37 @@ small, .text_small {font-size: 0.8em;}
   padding: 15px;
   
 }
+
+#mainBG {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  z-index: -1;
+  
+
+}
+
+#mainText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 36pt;
+  font-family: "VT";
+  text-align: center;
+  line-height: 45px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .65px;
+  overflow: hidden;
+  
+}
+
 
 /* Create three equal columns that floats next to each other */
 .maincolumn {
@@ -114,6 +146,13 @@ img#animation {
   width: 350px;
   height: auto;
 }
+
+#icon {
+  width: 25px;
+  height: auto;
+  /* Other styles here */
+}
+
 
 img#leftBgImage {
   left: 10%;
