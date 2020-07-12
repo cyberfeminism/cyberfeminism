@@ -30,6 +30,15 @@ body#refBody
   background-color: blue;
 }
 
+body#group2Body
+{
+  background-image: url("../content/groups/two/gruppe2_hintergrund_shorter.png");
+  padding-right: 50px;
+  overflow: hidden;
+  background-position: right 50px;
+  background-repeat: no-repeat;
+}
+
 p {margin-bottom: 1.15rem;
   font-family: "Titi";
   white-space: pre-wrap;
@@ -118,6 +127,7 @@ small, .text_small {font-size: 0.8em;}
   color: white;
 }
 
+
 /* Change color on hover */
 .topnav a:hover {
   color: black;
@@ -174,7 +184,7 @@ span {
   float: left;
   width: 60%;
   padding: 15px;
-  padding-top: 25%;
+  padding-top: 15%;
   text-align: left;
   text-justify: inter-word;
   letter-spacing: 0px;
