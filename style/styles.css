@@ -33,7 +33,7 @@ body#refBody
 body#indexBG
 {
   background-image: url("../content/main/mainBG.png");
-  background-size: 800px 1200px;
+  background-size: 800px auto;
   
   background-position: 50% 100px;
   background-repeat: no-repeat;
