@@ -187,9 +187,7 @@ span {
 
 /* Create three equal columns that floats next to each other */
 .maincolumn {
-  float: left;
-  width: 60%;
-  padding: 15px;
+  width: 65%;
   padding-top: 15%;
   text-align: left;
   text-justify: inter-word;
@@ -256,7 +254,6 @@ img#leftBgImage {
 
 .row{
   width: 80%;
- 
 }
 
 /* Clear floats after the columns */
@@ -272,6 +269,20 @@ img#leftBgImage {
   border: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+.group3Img#textImg
+{
+ width: 60%;
+}
+
+.group5Img
+{
+  height: auto;
+  width: 120%;
+  display: block;
+  align-content: flex-start;
+  
 }
 
 .circle {
