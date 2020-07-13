@@ -34,10 +34,8 @@ body#indexBG
 {
   background-image: url("../content/main/mainBG.png");
   background-size: 800px auto;
-  
   background-position: 50% 100px;
   background-repeat: no-repeat;
-  
 }
 
 body#group2Body
@@ -195,6 +193,22 @@ span {
   color: #0000FF;
 }
 
+.maincolumn#group5Format
+{
+  width: 120%;
+}
+
+#group5Format p {
+  margin-left: 20%;
+  padding-right: 20%;
+}
+
+.maincolumn#vorwortMain
+{
+  padding-right: 20%;
+  padding-left: 5%;
+}
+
 .maincolumn#refColumn {
   color:white;
   width: 70%;
@@ -279,10 +293,10 @@ img#leftBgImage {
 .group5Img
 {
   height: auto;
-  width: 120%;
+ width: 80%;
   display: block;
   align-content: flex-start;
-  
+  padding-left: 2%;
 }
 
 .circle {
@@ -364,7 +378,11 @@ img#leftBgImage {
     text-transform: uppercase;
     letter-spacing: .65px;
     overflow: hidden;
-
+}
+.maincolumn#vorwortMain
+{
+  padding-right: 5%;
+  padding-left: 2%;
 }
 }
 
@@ -403,9 +421,10 @@ img#leftBgImage {
     
   }
 
-  #loading {width: 100%;height: 100%;top: 0px;left: 0px;position: fixed;display: block; z-index: 99}
+  .maincolumn#vorwortMain
+{
+  padding-right: 1%;
+  padding-left: 1%;
+}
 
-  #loading-image {position: absolute;top: 40%;left: 45%;z-index: 100} 
-
- 
 }
