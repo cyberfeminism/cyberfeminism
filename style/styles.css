@@ -121,6 +121,14 @@ small, .text_small {font-size: 0.8em;}
   font-family: "VT";
 }
 
+.bottomnav
+{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: "VT";
+  
+}
 /* Style the topnav links */
 .topnav a {
   color: #0000FF;
@@ -310,10 +318,16 @@ img#leftBgImage {
   text-align: center;
   background: blue;
   text-decoration: none;
-  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 50px;
   margin-bottom: 50px;
 
+}
+
+.group2Text p
+{
+ color: black;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
