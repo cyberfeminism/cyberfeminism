@@ -201,6 +201,16 @@ span {
   color: #0000FF;
 }
 
+.linkIcons
+{
+  display: flex;
+  position: relative;
+  float: left;
+  top: 50vh;
+  left: 5%;
+  flex-direction: column;
+}
+
 .maincolumn#group5Format
 {
   width: 120%;
